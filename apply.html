@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <a href="#" class="logo">Web World</a>
+
+            <ul>
+
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html" target="_blank">
+                    <li>About</li>
+                </a>
+                <a href="contact.html" target="_blank">
+                    <li>Contact</li>
+                </a>
+                <a href="apply.html" target="_blank">
+                    <li>Apply</li>
+                </a>
+            </ul>
+        </nav>
+        <input class="search" type="text" name="search" id="search" placeholder="Search Job">
+
+    </header>
+    <main>
+        <div class="container">
+            <div class="apply_box">
+                <h1>Job Application Form </h1><br>
+                <form class="form_container" class="form_control">
+                    <label for="first_name">First Name</label>
+                    <input type="text" name="first_name" id="first_name" placeholder="Enter First Name..."><br><br>
+
+                    <label for="last_name">Last Name</label>
+                    <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name..."><br><br>
+
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email..."><br><br>
+
+                    <label for="mobile">Mobile No.</label>
+                    <input type="number" name="mobile" id="mobile" placeholder="Enter Mobile No...."><br><br>
+
+                    <label for="job_role">Job Role</label>
+                    <select name="job_role" id="job_role">
+                        <option value="">Select Job Role</option>
+                        <option value="frontend">Frontend Developer</option>
+                        <option value="backend">Backend Developer</option>
+                        <option value="full_stack">Full Stak Developer</option>
+                        <option value="ui_ux">UI/UX Designer</option>
+                    </select>
+                    <br><br>
+                    <label for="address">Address</label>
+                    <textarea name="address" id="address" cols="50" rows="2"
+                        placeholder="Enter Address"></textarea><br><br>
+
+                    <label for="city">City</label>
+                    <input type="text" name="city" id="city" placeholder="Enter City Name.."><br><br>
+
+                    <label for="pin_code">Pin Code</label>
+                    <input type="number" name="pin_code" id="pin_code" placeholder="Enter Pin Code.."><br><br>
+
+                    <label for="date">DOB</label>
+                    <input type="date" name="date" id="date" value="2023-04-20">
+                    <br>
+                    <br>
+
+                    <label for="upload">Upload Your CV</label>
+                    <input type="file" name="upload" id="upload">
+                    <br><br>
+                    <div class="center">
+                        <button type="submit" class="button_container">Apply Now</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
